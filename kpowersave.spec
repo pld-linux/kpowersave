@@ -24,6 +24,8 @@ BuildRequires:	kdelibs-devel >= 9:3.2.0
 BuildRequires:	pkgconfig
 BuildRequires:	powersave-devel
 BuildRequires:	rpmbuild(macros) >= 1.129
+BuildRequires:	xorg-proto-scrnsaverproto-devel
+BuildRequires:	xorg-lib-libXScrnSaver-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
