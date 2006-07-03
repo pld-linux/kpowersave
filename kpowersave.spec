@@ -10,12 +10,12 @@ Summary:	Systray KDE powersave icon
 Summary(de):	KDE Powersave Tray Ikone
 Summary(pl):	Ikona oszczêdzania energii dla zasobnika KDE
 Name:		kpowersave
-Version:	0.6.1
+Version:	0.6.2
 Release:	0.1
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/powersave/%{name}-%{version}.tar.bz2
-# Source0-md5:	32e96b3324b191be605acd4aca0529c6
+# Source0-md5:	ff3c368ada4b35d57f042262921d1d03
 URL:		http://powersave.sourceforge.net/
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake >= 1.6.1
