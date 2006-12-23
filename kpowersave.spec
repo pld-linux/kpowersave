@@ -7,34 +7,27 @@
 # - use kdepackage-template.spec as base
 #
 Summary:	Systray KDE powersave icon
-Summary(de):	KDE Powersave Tray Ikone
 Summary(pl):	Ikona oszczêdzania energii dla zasobnika KDE
 Name:		kpowersave
-Version:	0.6.2
-Release:	0.3
+Version:	0.5.8
+Release:	0.1
 License:	GPL v2+
-Group:		X11/Applications
+Group:		Applications
 Source0:	http://dl.sourceforge.net/powersave/%{name}-%{version}.tar.bz2
-# Source0-md5:	ff3c368ada4b35d57f042262921d1d03
+# Source0-md5:	6cea41c922b95224f788654004db3f64
 URL:		http://powersave.sourceforge.net/
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake >= 1.6.1
 BuildRequires:	dbus-devel >= 0.33
-BuildRequires:	dbus-qt-devel >= 0.70
 BuildRequires:	hal-devel >= 0.5.4
 BuildRequires:	kdelibs-devel >= 9:3.2.0
 BuildRequires:	pkgconfig
-BuildRequires:	powersave-devel >= 0.12.7
+BuildRequires:	powersave-devel
 BuildRequires:	rpmbuild(macros) >= 1.129
-BuildRequires:	xorg-lib-libXScrnSaver-devel
-BuildRequires:	xorg-proto-scrnsaverproto-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Systray KDE powersave icon.
-
-%description -l de
-KDE Powersave Tray Ikone.
 
 %description -l pl
 Ikona oszczêdzania energii dla zasobnika KDE.
