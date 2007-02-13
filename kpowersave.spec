@@ -7,8 +7,8 @@
 # - use kdepackage-template.spec as base
 #
 Summary:	Systray KDE powersave icon
-Summary(de.UTF-8):   KDE Powersave Tray Ikone
-Summary(pl.UTF-8):   Ikona oszczędzania energii dla zasobnika KDE
+Summary(de.UTF-8):	KDE Powersave Tray Ikone
+Summary(pl.UTF-8):	Ikona oszczędzania energii dla zasobnika KDE
 Name:		kpowersave
 Version:	0.6.2
 Release:	0.3
