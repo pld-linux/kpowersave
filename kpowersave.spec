@@ -11,7 +11,7 @@ Summary(de.UTF-8):	KDE Powersave Tray Ikone
 Summary(pl.UTF-8):	Ikona oszczędzania energii dla zasobnika KDE
 Name:		kpowersave
 Version:	0.6.2
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/powersave/%{name}-%{version}.tar.bz2
@@ -65,6 +65,8 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT \
 	kde_htmldir=%{_kdedocdir}
+
+rm -rf $RPM_BUILD_ROOT%{_datadir}/locale/sl_SI
 
 %find_lang %{name} --with-kde
 
