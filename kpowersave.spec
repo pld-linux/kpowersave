@@ -15,8 +15,11 @@ License:	GPL v2+
 Group:		Applications
 Source0:	http://dl.sourceforge.net/powersave/%{name}-%{version}.tar.bz2
 # Source0-md5:	6cea41c922b95224f788654004db3f64
+Patch0:		kde-ac260.patch
+Patch1:		kde-am.patch
+Patch2:		kde-ac260-lt.patch
 URL:		http://powersave.sourceforge.net/
-BuildRequires:	autoconf >= 2.50
+BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake >= 1.6.1
 BuildRequires:	dbus-devel >= 0.33
 BuildRequires:	hal-devel >= 0.5.4
@@ -34,6 +37,9 @@ Ikona oszczêdzania energii dla zasobnika KDE.
 
 %prep
 %setup -q
+%patch0 -p1
+%patch1 -p1
+%patch2 -p1
 
 %build
 cp -f /usr/share/automake/config.sub admin
