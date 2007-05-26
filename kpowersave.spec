@@ -29,6 +29,7 @@ BuildRequires:	powersave-devel >= 0.12.7
 BuildRequires:	rpmbuild(macros) >= 1.129
 BuildRequires:	xorg-lib-libXScrnSaver-devel
 BuildRequires:	xorg-proto-scrnsaverproto-devel
+Requires:	powersave >= 0.12.7
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
