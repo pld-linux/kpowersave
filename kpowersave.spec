@@ -11,7 +11,7 @@ Summary(de.UTF-8):	KDE Powersave Tray Ikone
 Summary(pl.UTF-8):	Ikona oszczędzania energii dla zasobnika KDE
 Name:		kpowersave
 Version:	0.7.3
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/powersave/%{name}-%{version}.tar.bz2
@@ -25,11 +25,9 @@ BuildRequires:	dbus-qt-devel >= 0.70
 BuildRequires:	hal-devel >= 0.5.4
 BuildRequires:	kdelibs-devel >= 9:3.2.0
 BuildRequires:	pkgconfig
-BuildRequires:	powersave-devel >= 0.12.7
 BuildRequires:	rpmbuild(macros) >= 1.129
 BuildRequires:	xorg-lib-libXScrnSaver-devel
 BuildRequires:	xorg-proto-scrnsaverproto-devel
-Requires:	powersave >= 0.12.7
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
